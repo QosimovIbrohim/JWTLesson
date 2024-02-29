@@ -16,8 +16,6 @@ namespace JWT.Infrastruct.Persistance
         {
             Database.Migrate();        
         }
-
         public DbSet<User> Users { get; set; }
-        public DbSet<GuidSaver> GuidSavers { get; set; }
     }
 }
