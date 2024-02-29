@@ -9,6 +9,6 @@ namespace JWTLesson.Application.Services.AuthService
 {
     public interface IAuthservice
     {
-        public Task<string> GenerateToken(User user);
+        Task<string> GenerateToken(string login, string password);
     }
 }
