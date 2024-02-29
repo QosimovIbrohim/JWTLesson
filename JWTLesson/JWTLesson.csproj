@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JWT.Domain\JWT.Domain.csproj" />
+    <ProjectReference Include="..\JWT.Infrastruct\JWT.Infrastruct.csproj" />
     <ProjectReference Include="..\JWTLesson.Application\JWTLesson.Application.csproj" />
   </ItemGroup>
 

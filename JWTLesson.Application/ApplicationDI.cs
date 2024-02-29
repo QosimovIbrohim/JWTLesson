@@ -11,7 +11,7 @@ namespace JWTLesson.Application
 {
     public static class ApplicationDI
     {
-        public static IServiceCollection AddApplicationDI(this IServiceCollection services)
+        public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddScoped<IAuthservice, AuthService>();
             services.AddScoped<IUserService, UserService>();
